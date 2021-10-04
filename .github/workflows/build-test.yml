@@ -2,8 +2,7 @@ name: build-test
 on:
   push:    
     branches:
-      - main
-      - operator
+      - master
     paths-ignore:
       - '**.md'
       - 'docs/**'
